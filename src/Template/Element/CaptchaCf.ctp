@@ -1,0 +1,2 @@
+<?= $this->Html->script('https://challenges.cloudflare.com/turnstile/v0/api.js') ?>
+<div class="cf-turnstile" data-sitekey="<?= $recaptchacf['sitekey']; ?>"  data-size="<?= $recaptchacf['size']; ?>" data-theme="<?= $recaptchacf['theme']; ?>" data-language="<?= $recaptchacf['language']; ?>" ></div>
