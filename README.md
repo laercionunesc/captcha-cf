@@ -23,6 +23,11 @@ From command line:
 bin/cake plugin load CaptchaCf
 ```
 
+OR load in config/bootstrap.php
+```
+Plugin::load('CaptchaCf', ['bootstrap' => false, 'autoload' => true]);
+```
+
 ## Load Component and Configure
 
 Override default configure from loadComponent in Controller:
