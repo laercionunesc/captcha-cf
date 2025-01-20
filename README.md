@@ -1,4 +1,4 @@
-# CaptchaCf Turnstile CloudFlare plugin for CakePHP
+# CaptchaCf Turnstile CloudFlare plugin for CakePHP 3.x
 
 ## Installation
 
